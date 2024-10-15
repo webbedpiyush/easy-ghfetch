@@ -1,0 +1,31 @@
+{
+  "name": "easy-ghfetch",
+  "version": "1.0.1",
+  "main": "dist/index.js",
+  "bin": {
+    "ghfetch": "./dist/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [
+    "github"
+  ],
+  "author": "webbedpiyush",
+  "license": "ISC",
+  "description": "Fetch specific folders from any branch of Github repositories",
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@commander-js/extra-typings": "^12.1.0",
+    "axios": "^1.7.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webbedpiyush/ghfetch"
+  }
+}
